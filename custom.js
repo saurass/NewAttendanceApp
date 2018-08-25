@@ -8,7 +8,8 @@ var pusher = new Pusher('bbc80a32d3d897c82c39', {
 var channel = pusher.subscribe('my-channel');
 channel.bind('my-event2', function(data) {
     var get_rand = data.rand;
-    if (get_rand == random) {
+    var i=0;
+    if (get_rand == random && i===0) {
         displayData(data);
         pusher.disconnect();
     }
