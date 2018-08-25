@@ -6,14 +6,14 @@
 <link rel="stylesheet" type="text/css" href="./custom.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.2/mustache.min.js"></script>
-	    <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
-	    <script>
-	        var roll = '<?php echo $_POST['roll'] ?>';
-	        var pass = '<?php echo $_POST['pass'] ?>';
-	    </script>
-	    <script src="./custom.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.3.0/pusher.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.2/mustache.min.js"></script>
+<script>
+	var roll = '<?php echo $_POST['roll'] ?>';
+	var pass = '<?php echo $_POST['pass'] ?>';
+</script>
+<script src="./custom.js"></script>
+
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
 

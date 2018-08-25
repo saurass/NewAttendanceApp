@@ -11,9 +11,9 @@
 		   'encrypted' => true
 		 );
 		 $pusher = new Pusher\Pusher(
-		   '3df9164881a3cc6ba333',
-		   'ad7d30f73f6203ba9f91',
-		   '584363',
+		   'bbc80a32d3d897c82c39',
+		   'e5a976636a6a9bb38896',
+		   '585086',
 		   $options
 		 );
 

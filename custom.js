@@ -1,21 +1,15 @@
 const random = Math.floor(Math.random() * 1000);
 
-var pusher = new Pusher('3df9164881a3cc6ba333', {
+var pusher = new Pusher('bbc80a32d3d897c82c39', {
     cluster: 'ap2',
     encrypted: true
 });
 
-var i = 0;
 var channel = pusher.subscribe('my-channel');
-channel.bind('my-event', function(data) {
+channel.bind('my-event2', function(data) {
     var get_rand = data.rand;
     if (get_rand == random) {
-
-        if (i == 1) {
-            pusher.disconnect();
-            displayData(data);
-        }
-        i++;
+        displayData(data);
     }
 });
 
