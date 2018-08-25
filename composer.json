@@ -1,0 +1,6 @@
+{
+    "name": "technocratz/new-portal-app",
+    "require": {
+        "pusher/pusher-php-server": "^3.2"
+    }
+}
