@@ -10,6 +10,7 @@ channel.bind('my-event2', function(data) {
     var get_rand = data.rand;
     if (get_rand == random) {
         displayData(data);
+        pusher.disconnect();
     }
 });
 
